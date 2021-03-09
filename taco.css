@@ -1,0 +1,442 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #333;
+  font-size: 1.25em;
+}
+
+/*NAVIGATION BAR*/
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  font-family: 'Fredericka the Great', cursive;
+
+}
+nav a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+nav a:link{color: #92C8EA;}
+nav a:visited{color: #FFF;}
+nav a:hover{color: #A52A2A;}
+
+/*Homepage*/
+
+#homephoto{
+  background: url('taco6.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.35;
+  height: 500px;
+  width: 100%;
+}
+.logo{
+  width: auto;
+  height: 300px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+#truckphoto{
+  height: 450px;
+  width: 40%;
+  float: left;
+}
+#abouthome{
+  height: 450px;
+  background-color: white;
+}
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  text-decoration: underline;
+  margin: 20px;
+  padding-left: 20px;
+}
+p{
+  margin: 30px;
+  padding-left: 20px;
+
+}
+#cta{
+  font-family: 'Fredericka the Great', cursive;
+  color: red;
+  font-size: 0.75em;
+  text-align: center;
+  margin: auto;
+}
+#submit{
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+/*Carousel Photos*/
+#photos{
+  background-color: #A9A9A9;
+  height: 500px;
+}
+#photos h1{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 1em;
+  color: #FFF;
+}
+.photocontainer {
+  display: flex;
+  overflow-x: auto;
+}
+.img{
+  height: 250px;
+  width: 200px;
+  margin: 10px;
+  border: 5px black;
+}
+
+#tacoparallax{
+  background: url('taco8.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.35;
+  height: 500px;
+  width: 100%;
+}
+/*Drink Specials*/
+#drink{
+  height: 400px;
+  width: 50%;
+  float: right;
+  opacity: 0.7;
+}
+h2{
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+}
+#address{
+  height: 400px;
+  background-color: #A9A9A9;
+}
+
+iframe{
+  height: 400px;
+  width: 100%;
+  opacity: 0.7;
+  background-attachment: fixed;
+
+}
+#map{
+  position: relative;
+}
+
+/* Bottom right text on map*/
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: .7;
+  border-radius: 25px;
+}
+.text-block h3{
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+}
+.text-block p{
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+
+}
+footer{
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 75%;
+    font-style: italic;
+    color: white;
+}
+
+.social-icons {
+  text-align: center;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-right: 20px;
+}
+
+/*Menu Page*/
+
+#menu1,#menu2,#menu3{
+  height: 600px;
+  width: 100%;
+  margin: 0;
+}
+.wrapper{
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 2048px;
+  }
+#menuheader{
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*Order Page*/
+#EmploymentApplication{
+  margin: 50px;
+  padding-bottom: 40px;
+}
+#applyheader{
+  text-align: center;
+  padding-top: 20px;
+}
+/*Contact Page*/
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.contactcontainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Blog Page*/
+
+.blogContent a{
+  transition: all .5s;
+  text-decoration: none;
+  color: #fff;
+}
+.singleBlog img{
+  width: 100%;
+  height: 400px;
+  transition: all .5s;
+}
+section{
+  padding: 0;
+  text-align: center;
+}
+#blogcontainer{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding-bottom: 4em;
+}
+#blogmain{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 30px;
+  margin: 30px 60px 0px 60px;
+}
+#blogcontainer header{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+#blogcontainer h1{
+  margin: 0;
+  font-size: 50px;
+  font-weight: 500;
+}
+.singleBlog{
+  position: relative;
+  overflow: hidden;
+  max-height: 580px;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 10px #ccc;
+  transition: all .5s;
+}
+.singleBlog:hover{
+  box-shadow: 0 2px 13px #ccc;
+  transition: all .4s;
+}
+.singleBlog:hover img{
+  transform: scale(1.1);
+  transition: all .4s;
+}
+.blogContent{
+  position: absolute;
+  left: 0;
+  bottom: -45px;
+  width: 100%;
+  color: #fff;
+  padding: 10px 5px;
+  background: linear-gradient(45deg, rgba(21,82,153,1) 0%,rgba(144,192,229,.4) 100%);
+}
+.singleBlog:hover .blogContent{
+  bottom:0;
+  transition: all .5s;
+}
+.blogContent h3{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+.blogContent h3 span{
+  display: block;
+  font-size: 70%;
+  margin-top: 5px;
+  font-weight: 600;
+  color: black;
+}
+.blogContent a{
+  font-size: 14px;
+  font-weight: 500;
+}
+.blogContent .btn{
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-weight: 400;
+}
+.blogContent .btn:hover{
+  background: rgba(52,152,219,1.0);
+  transition: all .5s;
+  text-decoration: none;
+}
+.blogContent a:hover{
+  text-decoration: underline;
+}
+/*Media Queries*/
+@media only screen and (max-width: 800px){
+/*HOME*/
+nav{
+  font-size: 75%
+}
+.logo{
+  left: 10%;
+}
+#truckphoto{
+  display: none;
+}
+/*MENU*/
+.wrapper{
+  width: 100%;
+}
+
+@media only screen and (max-width: 550px){
+/*HOME*/
+nav{
+  width: auto;
+  padding:0;
+  display: block;
+}
+nav a{
+  margin:0;
+  border-bottom: 1px solid #FFF;
+  display: block;
+}
+#homephoto,#truckphoto,#tacoparallax{
+  display: none;
+}
+.logo{
+  height: 250px;
+  width: 100%;
+  margin: auto;
+  position: static;
+}
+#abouthome{
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 85%;
+}
+#abouthome{
+  height: 450px;
+  background-color: white;
+  overflow: hidden;
+}
+#abouthome h1{
+  margin-top: 15px;
+}
+
+#photos{
+  height: 400px;
+}
+#photos h1{
+  margin:0;
+  padding: 10px;
+}
+
+/*MENU*/
+#menu1,#menu2,#menu3{
+  height: 400px;
+  width: 100%;
+  margin: auto;
+}
+#menuheader{
+  padding-top: 20px;
+  text-align: left;
+}
+.wrapper{
+  width: 100%;
+}
+
+/*APPLY*/
+table tr{
+  width: 100%;
+}
+#applyheader{
+  text-align: left;
+  padding-top: 20px;
+}
+
+/*BLOG*/
+#blogmain{
+  grid-template-columns: repeat(1,1fr);
+}
+/*CONTACT*/
+.column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
